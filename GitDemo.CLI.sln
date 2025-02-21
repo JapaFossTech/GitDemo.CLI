@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitDemo.CLI", "GitDemo.CLI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugLibrary", "..\libs\DebugLibrary\DebugLibrary.csproj", "{88388E48-4FDF-4688-8DA9-49F14D253C3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugTest", "..\libs\DebugTest\DebugTest.csproj", "{2134CF69-2F7B-491D-9361-C7FA951EB438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{88388E48-4FDF-4688-8DA9-49F14D253C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88388E48-4FDF-4688-8DA9-49F14D253C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88388E48-4FDF-4688-8DA9-49F14D253C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2134CF69-2F7B-491D-9361-C7FA951EB438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2134CF69-2F7B-491D-9361-C7FA951EB438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2134CF69-2F7B-491D-9361-C7FA951EB438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2134CF69-2F7B-491D-9361-C7FA951EB438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

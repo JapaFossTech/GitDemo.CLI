@@ -1,27 +1,52 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using GitDemo.CLI;
-using Northwind.EntityModels;
-using PrjBase;
+//using GitDemo.CLI;
+//using Northwind.EntityModels;
+//using PrjBase;
 
-//* Chapter 3
+#region CH3
 
-Console.WriteLine("Hello, Git!");
+////* Chapter 3
 
-Console.WriteLine(Calculator.Add(2, 3));
+//Console.WriteLine("Hello, Git!");
 
-//* Chapter 4
+//Console.WriteLine(Calculator.Add(2, 3));
 
-WebConfig config = new();
-config.OutputAll();
+#endregion
 
-Product product = new()
-{
-    ProductId = 1,
-    CategoryId = 1,
-    ProductName = "Chai",
-    UnitPrice = 1,
-    UnitsInStock = 1,
-    Discontinued = false
-};
+#region CH4
 
-WriteLine("Press enter to exit.");
+////* Chapter 4
+
+//WebConfig config = new();
+//config.OutputAll();
+
+//Product product = new()
+//{
+//    ProductId = 1,
+//    CategoryId = 1,
+//    ProductName = "Chai",
+//    UnitPrice = 1,
+//    UnitsInStock = 1,
+//    Discontinued = false
+//};
+
+//WriteLine("Press enter to exit.");
+
+////* Memory monitoring
+
+//List<Person> people = new();
+
+//for (int i = 0; i < 10_000; i++)
+//{
+//    people.Add(new Person { Name = $"Person {i}", Age = i });
+//}
+
+//WriteLine($"Finished creating {people.Count} people.");
+
+//class Person
+//{
+//    public string? Name { get; set; }
+//    public int Age { get; set; }
+//}
+
+#endregion
